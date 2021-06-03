@@ -11,7 +11,7 @@ let sodaCost = 1.75;
 window.onload = function setDate() {
     let dateNode = document.getElementById('date');
     dateNode.textContent = 'The date is ' + new Date();
-}
+};
 
 function printOrder() {
     
