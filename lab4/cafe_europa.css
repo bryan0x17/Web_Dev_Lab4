@@ -65,6 +65,14 @@ td {
     width: auto;
 }
 
+#orderConfirmation td {
+    width: auto;
+}
+
+#orderConfirmation table {
+    margin-bottom: 30px;
+}
+
 .button {
     width: 200px;
     font-size: 22px;
@@ -79,3 +87,9 @@ td {
 #reset {
     background-image: radial-gradient(red, rgb(253, 150, 124));
 }
+
+#date {
+    text-align: left;
+    font-size: 15px;
+}
+

@@ -9,11 +9,12 @@
     <script src="cafe_europa.js"></script>
 </head>
 <body>
-    <div id="date"></div>
+    
     <h1>Café Europa</h1>
     <h2>Calgary's best pizza and sandwiches!</h2>
-    <form id="order-form" onsubmit="printOrder();">
+    <form id="order-form" onsubmit="printOrder(); return false">
         <div id="menu">
+            <div id="date"></div>
         <h3>Online Order</h3>
         <h4>Your information</h4>
         <table id="information">
@@ -46,7 +47,7 @@
                     <label for="pickup-time">Choose a pickup time</label>
                 </td>
                 <td>
-                    <input type="datetime-local" name="pickup-time" id="pickup-time" required>
+                    <input type="datetime-local" name="pickup-time" id="pickup-time" required><!--Not supported on Mozilla-->
                 </td>
             </tr>
         </table>
@@ -181,6 +182,6 @@
         <input type="reset" class="button" id="reset">
         </div>
     </form>
-    
+    <div id="orderConfirmation"></div>
 </body>
 </html>
