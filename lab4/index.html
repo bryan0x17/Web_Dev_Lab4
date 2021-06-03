@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Dev Lab 4</title>
+    <link rel="stylesheet" href="cafe_europa.css">
+    <script src="cafe_europa.js"></script>
 </head>
 <body>
     <div id="date"></div>
     <h1>Café Europa</h1>
     <h2>Calgary's best pizza and sandwiches!</h2>
     <form id="order-form" onsubmit="printOrder();">
+        <div id="menu">
         <h3>Online Order</h3>
         <h4>Your information</h4>
-        <table>
+        <table id="information">
             <tr>
                 <td>
                     <label for="first-name">First Name</label>
@@ -49,7 +52,7 @@
         </table>
         <h4>Menu</h4>
         <h5>Neapolitan Style Pizza</h5>
-        <table>
+        <table id="menuItems">
             <tr>
                 <td>
                     <figure>
@@ -174,8 +177,9 @@
                 </td>
             </tr>
         </table>
-        <input type="submit" value="Submit Order" class="button">
-        <input type="reset" class="button">
+        <input type="submit" value="Submit Order" class="button" id="submit">
+        <input type="reset" class="button" id="reset">
+        </div>
     </form>
     
 </body>

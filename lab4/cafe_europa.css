@@ -1,0 +1,81 @@
+/* CSS for Web Dev Lab 4 - Café Europa */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playball&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(234, 247, 223);
+    
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px green, 10px 10px 10px red, -5px -5px 5px green, -10px -10px 10px red, 2px 2px 0px black;
+}
+
+h2 {
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(64, 133, 64);
+    text-shadow: 2px 2px 0px black;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: dashed;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+h5 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+#menu {
+    border: black;
+    border-style: groove;
+    padding: 5%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: inset;
+}
+
+td {
+    width: 200px;
+}
+
+#information td {
+    width: auto;
+}
+
+.button {
+    width: 200px;
+    font-size: 22px;
+    position: relative;
+    left: 35%;
+}
+
+#submit {
+    background-image: radial-gradient(green, rgb(109, 250, 104));
+}
+
+#reset {
+    background-image: radial-gradient(red, rgb(253, 150, 124));
+}
